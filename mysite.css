@@ -42,16 +42,28 @@ a:active  {color: #000000; text-decoration: none;} /* 클릭했을때 빨간색 
 
 #wrap > #nav {
 	/* background-color: #00ff00; */
-	padding: 10px 0px 10px 0px;
 	border-bottom: 1px solid #bfbfbf;
 }
 
 #wrap > #contents {
 	/* background-color: #ff00ff; */
+	/* border-bottom: 1px solid #bfbfbf; */
 }
 
+/* #wrap > #test {
+	background-color: #ff00ff;
+	padding: 30px 30px 20px 25px;
+	margin: 40px 40px 40px 25px;
+	border-bottom: 1px solid #bfbfbf;
+	background: #ffffff url(../css_02/img/jung.jpg) no-repeat fixed left center;
+} */
+
 #wrap > #footer {
-	background-color: #ff0000;	
+	margin: 5px;
+	padding: 20px;
+	background-color: #bfbfbf;
+	text-align: center;	
+	/* border: 1px solid #000000; */
 }
 
 /****************** header (로고 로그인 회원가입) ***********************/
@@ -77,15 +89,37 @@ a:active  {color: #000000; text-decoration: none;} /* 클릭했을때 빨간색 
 /****************** nav (입사지원서 게시판 갤러리 방명록) ***********************/
 
 #nav ul > li {
-	padding: 10px 80px;
+	padding: 10px 95px 10px 80px;
 	float: left;
 	/* border: 1px solid #000000; */
 	color: #000000;
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: bold;
 }
 
 /****************** contents (img text) ***********************/
 
+#contents img {
+	margin: 40px 40px 40px 25px;
+	float: left;
+	width: 350px;
+	height: 350px;
+	/* border: 1px solid #000000;  */
+}
+
+#contents > h2 { 
+	margin: 40px 0px 25px 0px;
+	float: left;
+	font-size: 20px;
+	/* border: 1px solid #000000; */ 
+}
+
+#contents > p {
+	float: left;
+	font-size: 15px;
+	/* border: 1px solid #000000; */ 
+}
+
+/****************** test (img text) ***********************/
 
 
