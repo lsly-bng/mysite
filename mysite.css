@@ -45,10 +45,10 @@ a:active  {color: #000000; text-decoration: none;} /* 클릭했을때 빨간색 
 	border-bottom: 1px solid #bfbfbf;
 }
 
-#wrap > #contents {
-	/* background-color: #ff00ff; */
-	/* border-bottom: 1px solid #bfbfbf; */
-}
+/* #wrap > #contents {
+	background-color: #ff00ff;
+	border-bottom: 1px solid #bfbfbf;
+} */
 
 /* #wrap > #test {
 	background-color: #ff00ff;
