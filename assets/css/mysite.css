@@ -9,6 +9,11 @@ button, form {
     margin: 0; padding: 0;
 }
 
+body {
+	font-size:12px;
+	font-family: "맑은 고딕", 돋움, 굴림;
+}
+
 /* 리스트 초기화 */
 ul, ol {list-style-type: none;}
 
@@ -42,8 +47,14 @@ a:active  {color: #000000; text-decoration: none;}   /* 클릭했을때 빨간�
 	border-bottom: 1px solid #bfbfbf;
 }
 
-#wrap > #contents {
+/* 가로 전체 사용할때 */
+#wrap > #full-contents {
 	padding: 40px 20px 40px 20px;
+}
+
+/* 가로 서브메뉴 있을때 */
+#wrap > #contents {
+	padding: 30px 0px 30px 0px;
 }
 
 #wrap > #footer {
@@ -70,23 +81,74 @@ a:active  {color: #000000; text-decoration: none;}   /* 클릭했을때 빨간�
 	float: right;
 }
 
-#header ul>li {
+#header ul > li {
 	margin: 0px 0px 0px 20px;
 	float: left;
 	font-size: 14px;
 }
 
-/* ******************네비(메인메뉴)************************** */
+/* ******************navigation (메인메뉴)************************** */
 
 #nav ul > li {
-		float: left;
-		width: 250px; 
-		font-size: 20px;
-		font-weight: bold;
-		text-align: center; 
-		/* border: 1px solid #000000; */
+	float: left;
+	width: 250px; 
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center; 
+	/* border: 1px solid #000000; */
 }
 
+/****************** contents (서브메뉴 있을떄) ***********************/
+
+/* aside */
+#contents > #aside {
+	margin: 0px 20px 0px 0px;
+	float: left;
+	width: 160px;
+}
+
+#contents > #aside > h2 {
+	padding: 20px 0px 20px 0px;
+	background-color: #dddddd;
+	text-align: center;
+	font-size: 20px;
+}
+
+/* alternative:
+	#contents > #aside > h2 {
+	height: 60px;
+	line-height: 60px;
+	background-color: #dddddd;
+	text-align: center;
+	font-size: 20px; */
+	
+#contents > #aside > ul > li {
+	margin: 5px 0px 0px 0px;
+	padding: 8px 0px 8px 10px;
+	border: 1px solid #a6a6a6;
+	font-size: 14px;
+}
+
+/* 메인컨텐츠 */
+#contents > #main-contents {
+	float: left;
+	width: 820px;
+}
+
+#contents > #main-contents > #main-contents-header {
+	padding: 18px 0px 10px 0px;
+	border-bottom: 1px solid #bfbfbf;
+}
+
+#contents > #main-contents > #main-contents-header > h3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#contents > #main-contents > #main-contents-header > ol > li {
+	font-size: 12px;
+	
+}	
 /****************** footer ***********************/
 
 #footer p {
