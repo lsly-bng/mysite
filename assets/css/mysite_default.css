@@ -1,6 +1,8 @@
 @charset "UTF-8";
-/* ***************초기화*************************** */
-/* 여백초기화 */
+/**************************초기화****************************/
+
+/*********** 여백초기화 (인터넷에서 가져다 쓰세요) ***********/
+
 body, div, ul, li, dl, dt, ol, 
 h1, h2, h3, h4, h5, h6, input, 
 fieldset, legend, p, select, 
@@ -14,24 +16,32 @@ body {
 	font-family: "맑은 고딕", 돋움, 굴림;
 }
 
-/* 리스트 초기화 */
+/**************** 리스트 초기화 ****************/
+
 ul, ol {list-style-type: none;}
 
-/* 링크 초기화 */
+/**************** 링크 초기화 ****************/
+
 a:link    {color: #000000; text-decoration: none;}	  /* 방문전 링크일때 자홍색 선없음 */
 a:visited {color: #000000; text-decoration: none;} 	  /* 방문했던 링크일때 회색 위에선*/
 a:hover   {color: #000000; text-decoration: none;}   /* 마우스오버일때 파란색 아래선 */
 a:active  {color: #000000; text-decoration: none;}   /* 클릭했을때 빨간색 중앙선*/ 
 
 
-/* clearfix */
+/**************** clearfix (인터넷에서 가져다 쓰세요) ****************/
+
 .clearfix{*zoom:1;}
 .clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
 .clearfix:after {clear: both;}
 
+/********************* 기본 클래스 *********************/
+
 .bold {font-weight: bold;}
 
-/* ******************레이아웃************************** */
+.pointer {cursor: pointer;}
+
+/*******************레이아웃***************************/
+
 #wrap {
 	margin: 0px auto;
 	width: 1000px;
@@ -47,12 +57,14 @@ a:active  {color: #000000; text-decoration: none;}   /* 클릭했을때 빨간�
 	border-bottom: 1px solid #bfbfbf;
 }
 
-/* 가로 전체 사용할때 */
+/**************** full-scale contents ****************/
+
 #wrap > #full-contents {
 	padding: 40px 20px 40px 20px;
 }
 
-/* 가로 서브메뉴 있을때 */
+/**************** aside (게시판 메뉴 sub-menu) ****************/
+
 #wrap > #contents {
 	padding: 30px 0px 30px 0px;
 }
@@ -60,15 +72,17 @@ a:active  {color: #000000; text-decoration: none;}   /* 클릭했을때 빨간�
 #wrap > #footer {
 	padding: 20px 0px 20px 0px; 
 	background-color: #dddddd;
+	text-align: center;
+	font-size: 12px;
 }
 
 /* #wrap > #footer {
-	padding: 10px 0px 10px 0px; 
 	background-color: #dddddd;
-	height: 100px;
+	height: 50px;
 } */
 
-/* ******************해더(로고  로그인,회원가입)************************** */
+/*****************header (logo, login, signup)****************/
+
 #header > h1 {
 	float: left;
 	color: #79B30B;
@@ -87,7 +101,7 @@ a:active  {color: #000000; text-decoration: none;}   /* 클릭했을때 빨간�
 	font-size: 14px;
 }
 
-/* ******************navigation (메인메뉴)************************** */
+/*******************navigation (main menu top page navigation)*****************/
 
 #nav ul > li {
 	float: left;
@@ -98,9 +112,10 @@ a:active  {color: #000000; text-decoration: none;}   /* 클릭했을때 빨간�
 	/* border: 1px solid #000000; */
 }
 
-/****************** contents (서브메뉴 있을떄) ***********************/
+/*********** contents (for "aside" / when there's a sub-menu) *************/
 
-/* aside */
+/********************* aside *********************/
+
 #contents > #aside {
 	margin: 0px 20px 0px 0px;
 	float: left;
@@ -129,7 +144,8 @@ a:active  {color: #000000; text-decoration: none;}   /* 클릭했을때 빨간�
 	font-size: 14px;
 }
 
-/* 메인컨텐츠 */
+/********************* 메인컨텐츠 *********************/
+
 #contents > #main-contents {
 	float: left;
 	width: 820px;
@@ -140,21 +156,18 @@ a:active  {color: #000000; text-decoration: none;}   /* 클릭했을때 빨간�
 	border-bottom: 1px solid #bfbfbf;
 }
 
-#contents > #main-contents > #main-contents-header > h3 {
+#main-contents-header h3 {
 	font-size: 18px;
 	font-weight: bold;
 }
 
-#contents > #main-contents > #main-contents-header > ol > li {
-	font-size: 12px;
-	
-}	
 /****************** footer ***********************/
 
-#footer p {
+/* #footer p {
 	text-align: center;
 	font-size: 12px;
-}
+	line-height: 50px;
+} */
 
 
 

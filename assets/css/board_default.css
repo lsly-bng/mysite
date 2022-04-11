@@ -53,24 +53,7 @@ textarea {
 
 /*************** 리스트 ***************/
 
-#main-contents-header ol {
-	float: right;
-}
 
-#main-contents-header ol > li {
-	float: left;
-	
-}
-
-#main-contents-header ol > li::after {
-	padding: 0px 10px 0px 10px;
-	content: ">";
-}
-
-#main-contents-header ol > li:last-child::after {
-	padding: 0px 0px 0px 10px;
-	content:""; 
-}
 
 /*************** 글쓰기 ***************/
 
@@ -79,15 +62,15 @@ textarea {
 	display: inline-block;	
 }
 
-#sel-board {
+#main-contents-body #sel-board {
 	width: 162px;
 }
 
-#txt-title {
-	width: 720px;
+#main-contents-body #txt-title {
+	width: 722px;
 }
 
-#txt-pw {
+#main-contents-body #txt-pw {
 	width: 150px;
 }
 
