@@ -157,8 +157,28 @@ a:active  {color: #000000; text-decoration: none;}   /* 클릭했을때 빨간�
 }
 
 #main-contents-header h3 {
+	float: left;
 	font-size: 18px;
 	font-weight: bold;
+}
+
+#main-contents-header ol {
+	float: right;
+	font-size: 14px;
+}
+
+#main-contents-header ol > li {
+	float: left;
+}
+
+#main-contents-header ol > li::after {
+	padding: 0px 10px 0px 10px;
+	content: ">";
+}
+
+#main-contents-header ol > li:last-child::after {
+	padding: 0px 0px 0px 10px;
+	content:""; 
 }
 
 /****************** footer ***********************/
