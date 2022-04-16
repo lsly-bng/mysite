@@ -11,6 +11,14 @@
 	float: right;
 }
 
+#main-contents-search input {
+	margin: 0px 5px 0px 0px;
+	width: 150px;
+	height: 15px;
+}
+
+/*************** main-contents-table (게시판) ***************/
+
 #main-contents-table table {
 	margin: 0px 0px 10px 0px;
 	border-collapse: collapse;
@@ -21,8 +29,6 @@
 	text-align: center;
 }
 
-/*************** main-contents-table (게시판) ***************/
-
 #main-contents-table table tr {
 	border-bottom: 1px dotted #bfbfbf;
 }
@@ -31,28 +37,30 @@
 	background-color: #dddddd;
 }
 
-#main-contents-table table > thead > tr > th {
+#main-contents-table th, td {
 	padding: 10px 0px 10px 0px;
 }
 
-#main-contents-table table > tbody > tr > td {
-	padding: 10px 0px 10px 0px;
-}
-
-/*************** main-contents-page (게시판) ***************/
+/*************** main-contents-page (게시판 하단) ***************/
 
 #main-contents-page {
-	font-size: 14px;
+	margin: 10px 0px 0px 0px;
+	font-size: 16px;
 }
 
-#main-contents-page ul {
-	margin: 15px 10px 25px 10px;
-	float: right;
+#main-contents-page ol {
+	margin: 0px 250px 0px 250px;
 }
 
-#main-contents-page ul > li {
-	padding: 0px 5px 0px 5px;
-	float: left;
+#main-contents-page ol > li {
+	padding: 5px;
+ 	float: left; 	
+
+}
+
+#main-contents-page ol > li > a:hover {
+	color: #00ff00;
+	font-weight: bold;
 }
 
 #main-contents-page button {
