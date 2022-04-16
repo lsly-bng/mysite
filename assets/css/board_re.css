@@ -16,9 +16,9 @@ input[type="password"] {
 
 
 input [type="radio"] {
+	margin: 0px 20px 0px 0px;
 	width: 15px;
 	height: 15px;
-	margin: 0px 20px 0px 0px;
 }
 
 input [type="file"] {
@@ -44,10 +44,6 @@ textarea {
 	padding: 20px 0px 0px 0px;
 	text-align: center;
 }
-
-/*************** 게시판 공통 ***************/
-
-/*************** 리스트 (게시판) ***************/
 
 /*************** main-contents-search (검색창) ***************/
 
@@ -111,7 +107,6 @@ textarea {
 #main-contents-page button {
 	float: right;
 }
-/*************** 리스트 (게시판) ***************/
 
 /*************** 글쓰기 ***************/
 
@@ -137,6 +132,5 @@ textarea {
 	height: 200px;
 }
 
-/*************** 글쓰기 ***************/
 
 

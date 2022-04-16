@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+#main-contents-signup {
+	width: 820px;
+}
+
+#main-contents-signup .info-group {
+	padding: 15px 0px 15px 0px;
+	border-bottom: 1px solid #bfbfbf;
+}
+
+#main-contents-signup .info-title {
+	width: 100px;
+	display: inline-block;
+	font-size: 14px;
+}
+
+#info-address-details {
+	margin: 10px 0px 0px 0px;
+	width: 500px;
+}
+
+#info-intro {
+	margin: 0px 0px 5px 0px;
+	width: 500px;
+	height: 100px;
+	vertical-align: top;
+	font-size: 12px;
+}
